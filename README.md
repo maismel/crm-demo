@@ -23,8 +23,6 @@ src/
 └─ main.js
 
 ## Project launch
-Install dependencies
-npm install
+Install dependencies: npm install
 
-Run development server
-npm run dev
+Run development server: npm run dev
