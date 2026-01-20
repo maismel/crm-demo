@@ -13,14 +13,15 @@
 ## Project Structure
 
 src/
-├─ api/ API requests (login, user, products, etc.)
-├─ assets/ icons
-├─ components/ reusable Vue components (buttons, inputs, cards, charts)
-├─ views/ main pages/views (Login, Dashboard, Home)
-├─ store/ # Vuex store modules (auth, products)
-├─ router/
-├─ App.vue
-└─ main.js
+- api/        // API requests (login, users, products, etc.)
+- assets/     // Icons, images, and other static assets
+- components/ // Reusable Vue components (buttons, inputs, cards, charts)
+- views/      // Main pages/views (Login, Dashboard, Home)
+- store/      // Vuex store modules (auth, products)
+- router/     // Vue Router setup
+- layouts/ 
+- App.vue
+- main.js
 
 ## Project launch
 Install dependencies: npm install
