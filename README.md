@@ -1,5 +1,30 @@
-# Vue 3 + Vite
+# Demo
+[View Live Demo] https://maismel.github.io/crm-demo
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Features
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+- Responsive sidebar with mobile toggle
+- charts using Chart.js and vue-chartjs
+- login/logout authentication
+- reusable components: buttons, inputs, cards
+- responsive layout
+- CSS variables for easy theming
+
+## Project Structure
+
+src/
+├─ api/ API requests (login, user, products, etc.)
+├─ assets/ icons
+├─ components/ reusable Vue components (buttons, inputs, cards, charts)
+├─ views/ main pages/views (Login, Dashboard, Home)
+├─ store/ # Vuex store modules (auth, products)
+├─ router/
+├─ App.vue
+└─ main.js
+
+## Project launch
+Install dependencies
+npm install
+
+Run development server
+npm run dev
